@@ -1,1 +1,22 @@
- 
+/* pagination.css */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination-container .page-square {
+  width: 15px;
+  height: 15px;
+  background-color: #ccc;
+  border: 1px solid #999;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease; /* Add a smooth transition for background-color */
+}
+
+.pagination-container .page-square.active {
+  background-color: #555;
+  color: white;
+}

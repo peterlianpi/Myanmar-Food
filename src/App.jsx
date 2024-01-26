@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
 import { FoodContextProvider } from "./components/FoodContext";
 import FoodId from "./components/FoodId";
+import "./App.css";
 
 export default function App() {
   return (
