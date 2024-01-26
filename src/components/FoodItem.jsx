@@ -18,7 +18,7 @@ function FoodItem({ food }) {
 
   const myFood = food;
   return (
-    <div className="bg-gray-200 p-4 rounded-lg text-center hover:bg-white hover:shadow-md hover:shadow-black/25 transition-all  flex flex-col md:flex-row h-70 md:h-40 max-w-auto  items-center ">
+    <div className="bg-gray-200 p-4 rounded-lg text-center hover:bg-white hover:shadow-md hover:shadow-black/25 transition-all  flex flex-col md:flex-row h-70 md:h-[30vh] max-w-auto  items-center ">
       <div className="flex  w-40 h-40 md:h-full  rounded-md m-0 p-0 relative">
         {imageExists ? (
           <img

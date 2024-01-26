@@ -45,7 +45,7 @@ function Home({ data }) {
 
   const myData = data;
   return (
-    <main className="p-4">
+    <main className="p-4 mb-4">
       <h1 className="text-center p-4 font-semibold text-3xl">
         <hr />
         Burmese Recipes
